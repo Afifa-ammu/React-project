@@ -1,0 +1,119 @@
+.dres{
+    
+    
+    flex-wrap: wrap;
+    position: relative;
+    top: -230px;
+    left: 780px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.shop{
+    height: 170vh;
+    
+    
+}
+.dres:hover{
+    transition: 3s;
+    transform: scale(1.1);
+    opacity: 1.2;
+    cursor: pointer;
+}
+
+h1{
+   text-align: center;
+   margin-top: 10px;
+   position: relative;
+   top: 15px;
+   font-family: Arial, Helvetica, sans-serif; 
+   
+   
+}
+b{
+    position: relative;
+    top: -220px;
+    font-size: 30px;
+    left: 630px;
+    
+    
+    
+    
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: -170px;
+    font-size: 30px;
+    
+
+}
+
+.images{
+    box-shadow: 0px 0px 5px;
+    padding: 20px;
+    
+    
+}
+h5,h6{
+    position: relative;
+    left: 50px;
+    
+}
+
+.images:hover{
+    transition: 3s;
+    transform: scale(1.1);
+    opacity: 1.2;
+    cursor: pointer;
+}
+
+.card{
+    text-align: center;
+    left: 300px;
+    position: relative;
+    
+
+}
+.change{
+    margin-top: 160px;
+    margin-left: 50px;
+}
+.cards{
+    width: 70%;
+    height: 70%;
+}
+
+@media only screen and (max-width :500px){
+
+   h2{
+        position: relative;
+        left: -50px;
+   }
+   .dres{
+    margin-left: -590px;
+    width: 50%;
+    
+   }
+   .cards{
+         width: 150%;
+         margin-left: -300px;
+        
+   }
+   
+   b{
+    margin-left: -540px;
+   
+   }
+   .shop{
+    height: 300%;
+
+   }
+   
+
+}
+

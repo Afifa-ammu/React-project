@@ -1,0 +1,28 @@
+h1{
+    position: relative;
+    
+
+}
+.content{
+    height: 240vh;
+    
+}
+.container{
+    display: flex;
+    margin-top: +100px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-left: 100px;
+    gap: 20px;
+    
+
+    
+}
+.btn{
+    position: relative;
+    left: 40px;
+}
+
+
+

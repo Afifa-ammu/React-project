@@ -1,0 +1,68 @@
+.icons{
+    font-size: 27px;
+    margin-left: -20px;
+}
+.contactinfo{
+    padding: 20px;
+    margin-left: 20px;
+}
+h2{
+    
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form{
+    height: 50vh;
+}
+.contents{
+ position: relative;
+ margin-left: 550px;  
+ top: -400px;
+ max-width: 450px;
+ padding-bottom: 10px;
+ padding: 100px;
+ background-color: rgba(0,0,0,0.9);
+ box-sizing: border-box;
+ color: antiquewhite;
+ box-shadow: 0px 0px 0px;
+ border-radius: 20px;
+}
+label{
+    position: relative;
+    left: -70px;
+    font-size: 21px;
+}
+.btn{
+    margin-top: 19px;
+}
+input{
+    width: 123%;
+    padding: 4px;
+    position: relative;
+    margin-bottom: 30px;
+    left: -50px;
+}
+h3{
+    position: relative;
+    top: -10px;
+    color: aliceblue;
+}
+@media only screen and (max-width :550px){
+    h2{
+        margin-left: 10px    
+    }
+    input{
+        width: 152%;
+    }
+    .contents{
+        position: relative;
+        left: -529px;
+        width: 89%;
+        margin-top: 400px;
+    }
+}
+@media only screen and (min-width :768px){
+    .contents{
+        width: 89%;
+        margin-left: +300px;
+                }
+}
